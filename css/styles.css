@@ -2,7 +2,7 @@ body{
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	display: block;
 }
 
@@ -16,6 +16,7 @@ body{
 	background-color: #FF6F00;
 	text-align: center;
 	z-index: 1;
+	font-family: 'Dosis', sans-serif;
 }
 
 .header nav{
@@ -26,7 +27,7 @@ body{
 .header nav a{
 	font-size: 150%;
 	padding-left: 40px;
-	padding-right: 40px;	
+	padding-right: 40px;
 	color: #fff;
 	transition: 1s;
 	font-weight: bold;
@@ -59,6 +60,7 @@ body{
 
 /*Divição entre as div*/
 .div_principais{
+	font-family: 'Dosis', sans-serif;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -111,6 +113,32 @@ body{
 	height: 690px;
 }
 
+.cabecalho{
+	background-color: #FF6F00;
+	float: left;
+	position: relative;
+	margin-top: 200px;
+	width: 320px;
+	height: 150px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+
+
+
+}
+
+iframe{
+	float: right;
+	position: relative;
+	margin-top: 80px;
+	width: 750px;
+	height: 400px;
+
+}
+
+
+
 /*Rodapé*/
 .footer{
 	height: auto;
@@ -142,10 +170,3 @@ body{
 	padding-bottom: 10px;
 	text-align: center;
 }
-
-
-
-
-
-
-
