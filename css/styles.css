@@ -1,14 +1,12 @@
 body{
 	width: 100%;
-	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	display: block;
+	display: block; 
 }
 
 /*Navegação*/
 .header{
-
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -16,11 +14,12 @@ body{
 	background-color: #FFAB91;
 	text-align: center;
 	z-index: 1;
+
 }
 
 .header nav{
 	padding-top: 25px;
-	padding-left: 80px;
+	padding-bottom: 25px;
 }
 
 .header nav a{
@@ -42,40 +41,50 @@ body{
 	transition: 1s;
 }
 
-.header nav a:active{
-	color: #000;
-	border-radius: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color:#fff;
 
-}
-
-.contato_header	{
-	padding-top: 20px;
+.contato_header {
+	padding-top: 10px;
 }
 
 .header div p{
  	color: #fff;
- 	text-align: left;
+ 	text-align: center;
  }
 
+ .contato_header i{
+	color: #fff;
+	font-size: 24px;
+	transition: 1s;
+}
+
+.contato_header i:hover{
+	color: #FF6F00;
+	transition: 1s;
+}
 
 /*Divição entre as div*/
 
 .div_principais{
-	padding: 0;
-	margin: 0;
+	padding-top: 5%;
 	width: 100%;
+
 }
+
+/*.div_principais img{
+	width: 100%;
+	position: fixed;
+	height: auto;
+	z-index: -1;
+}*/
 
 .div_principais h2{
 	margin: 0;
 	text-align: center;
 	color: #fff;
-	padding-top: 120px;
 	padding-bottom: 10px;
+	padding-top: 10%;
 }
+
 .screen_div{
 	height: 1024px;
 	width: auto;
@@ -86,31 +95,48 @@ body{
 /*Home*/
 
 .home_class{
-
+	height: auto;
 }
 
+.home_class div div{
+	margin: 0;
+	padding: 0;
+}
 
-.home_class img{
+.home_class div{
+	margin: auto;
+	padding: auto;
+}
+
+.home_class div img{
 	width: 100%;
-	position: fixed;
-	height: auto;
-	z-index: -1;
 }
 
 /*Loja*/
-.venda_class{
+.loja_class{
 	height: auto;
+	background-color: #eee;
 }
 
-.venda_class div{
+.loja_class div h2{
+	color: #000;
+}
+
+.loja_class div{
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
-.venda_class div img{
+.loja_class div img{
 	width: 100%;
 
 }
 
+.loja_class div button{
+	border-color: #FF7043;
+	background-color: #FF7043;
+	margin-top: 10px;
+	width: 100%;
+}
 
 /*Sobre*/
 .sobre_class{
@@ -119,9 +145,13 @@ body{
 
 /*Contatos*/
 .contatos_class{
-	height: 700px;
+	background-color: #eee;
+	height: 720px;
 }
 
+.contatos_class div h2{
+	color: #000;
+}
 /*Rodapé*/
 .footer{
 	height: auto;
