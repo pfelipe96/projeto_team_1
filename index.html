@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="javascript/main.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -16,7 +17,7 @@
 		<div class="row">
 			<div class="col-sm-10 col-xs-12">
 				<nav class="navagation">
-					<a href="#home" class="home_nav scrollSuave">Home</a>
+					<a href="#home" class="home_nav scrollSuave teste">Home</a>
 					<a href="#loja" class="scrollSuave">Loja</a>
 					<a href="#sobre" class="scrollSuave">Sobre</a>
 					<a href="#contatos" class="scrollSuave">Contatos</a>
@@ -120,20 +121,29 @@
 
 			<div id="contatos" class="contatos_class screen_div">
 				<div class="container">
-					<div>
-					   <h2>CONTATO / LOCALIZAÇÃO</h2>
-				  </div>
-					<div class="cabecalho">
-						<p>Telefone: (11) 3749 0631</p>
-						<p>e-mail: bolodavovo@yahoo.com.br</p>
-						<p>Av. Dr. Guilherme Dumont Vilares, nº 1930</p>
-						<p>Jardim Londrina / CEP 05640-003 / SP</p>
+						<div>
+						   <h2>CONTATO</h2>
+					  	</div>
+						<div class="contatos_margin">
+						<div class="row">
+							<div class="contatos_numero">
+								<div class="col-sm-6 col-xs-12">
+
+										<p>Telefone: (11) 3749 0631</p>
+										<p>E-mail: bolodavovo@yahoo.com.br</p>
+										<p>Av. Dr. Guilherme Dumont Vilares, nº 1930</p>
+										<p>Jardim Londrina - CEP 05640-003 - SP</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.5093395916474!2d-46.74152878573777!3d-23.621923684652767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56ac332750c1%3A0xa0c44600139e1536!2sAv.+Dr.+Guilherme+Dumont+Vilares%2C+1930+-+Vila+Andrade%2C+S%C3%A3o+Paulo+-+SP%2C+05640-003!5e0!3m2!1spt-BR!2sbr!4v1497716040132" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+								</iframe>
+							</div>
+						</div>
 					</div>
-					<div>
-							 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.5093395916474!2d-46.74152878573777!3d-23.621923684652767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56ac332750c1%3A0xa0c44600139e1536!2sAv.+Dr.+Guilherme+Dumont+Vilares%2C+1930+-+Vila+Andrade%2C+S%C3%A3o+Paulo+-+SP%2C+05640-003!5e0!3m2!1spt-BR!2sbr!4v1497716040132" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-       </div>
-		  </div>
+       			</div>
+		  	</div>
+
 		<div class="footer screen_div">
 			<div class="row">
 				<div class="color col-sm-3 col-xs-12">
@@ -156,29 +166,13 @@
 			</div>
 		</div>
 
-<script>
-	var $doc = $('html, body');
-	$('.scrollSuave').click(function() {
-    	$doc.animate({
-        	scrollTop: $( $.attr(this, 'href') ).offset().top
-    	}, 500);
-    	return false;
-	});
-
-	/*$(document).ready(function() {
-    $('nav').click(function() {
-        $('nav a').removeClass("active"); //aqui removemos a class do item anteriormente clicado para que possamos adicionar ao item clicado
-        $(this).addClass("active"); //aqui adicionamos a class ao item clicado*/
-
-        /*$("navagation").hover(function() {
-  		$(this).addClass("glyphicon glyphicon-home");
-			}, function() {
- 		$(this).removeClass("home_nav");
-		});
-    });
-});*/
-
-</script>
-
-</body>
+			<script>var $doc = $('html, body');
+				$('.scrollSuave').click(function() {
+    			$doc.animate({
+        		scrollTop: $( $.attr(this, 'href') ).offset().top
+    			}, 500);
+    			return false;
+				});
+			</script>
+	</body>
 </html>
