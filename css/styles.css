@@ -13,14 +13,14 @@ body{
 	height: auto;
 	position: fixed;
 	padding: 8px;
-	background-color: #FF6F00;
+	background-color: #FFAB91;
 	text-align: center;
 	z-index: 1;
 	font-family: 'Dosis', sans-serif;
 }
 
 .header nav{
-	padding-top: 12px;
+	padding-top: 25px;
 	padding-left: 80px;
 }
 
@@ -52,13 +52,18 @@ body{
 
 }
 
- .header div p{
+.contato_header	{
+	padding-top: 20px;
+}
+
+.header div p{
  	color: #fff;
  	text-align: left;
  }
 
 
 /*Divição entre as div*/
+
 .div_principais{
 	font-family: 'Dosis', sans-serif;
 	padding: 0;
@@ -68,49 +73,55 @@ body{
 
 .div_principais h2{
 	margin: 0;
-	padding-top: 100px;
-	padding-bottom: 10px;
 	text-align: center;
 	color: #fff;
-	border-bottom: 2px solid #fff;
+	padding-top: 120px;
+	padding-bottom: 10px;
 }
 .screen_div{
-	height: 850px;
+	height: 1024px;
 	width: auto;
 }
+
+
 
 /*Home*/
 
 .home_class{
-	background-color:#000fff;
+
+}
+
+
+.home_class img{
+	width: 100%;
+	position: fixed;
+	height: auto;
+	z-index: -1;
 }
 
 /*Loja*/
 .venda_class{
-	background-color: #000;
-	padding-bottom: 100px;
 	height: auto;
 }
 
 .venda_class div{
 	padding-top: 1%;
+	padding-bottom: 1%;
 }
 .venda_class div img{
 	width: 100%;
-	height: auto;
 
 }
 
 
 /*Sobre*/
 .sobre_class{
-	background-color:#000fff;
+	background:
 }
 
 /*Contatos*/
 .contatos_class{
-	background-color: #000;
-	height: 690px;
+	height: 700px;
 }
 
 .cabecalho{
@@ -142,7 +153,7 @@ iframe{
 /*Rodapé*/
 .footer{
 	height: auto;
-	background-color:#ff;
+	background-color:#FFAB91;
 }
 
 .footer div{
@@ -151,7 +162,7 @@ iframe{
 }
 
 .footer i{
-	color: #000;
+	color: #fff;
 	font-size: 36px;
 	padding-top: 10px;
 	margin-right: 50%;
@@ -166,6 +177,8 @@ iframe{
 }
 
 .footer p{
+	color: #fff;
+	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
