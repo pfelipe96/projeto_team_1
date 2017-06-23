@@ -16,12 +16,13 @@ window.onload = function(){
 			this.classList.add('glyphicon-shopping-cart');
 		} else if(texto == "Sobre"){
 			this.innerHTML = "";
-			this.classList.add('glyphicon');
-			this.classList.add('glyphicon-earphone');
-		} else if(texto == "Contatos"){
-			this.innerHTML = "";
 			this.classList.add('fa');
 			this.classList.add('fa-birthday-cake');
+		} else if(texto == "Contatos"){
+			this.innerHTML = "";
+			this.classList.add('glyphicon');
+			this.classList.add('glyphicon-earphone');
+
 		}
 	}
 
@@ -37,12 +38,12 @@ window.onload = function(){
 			this.classList.remove('glyphicon-shopping-cart');
 		} else if(texto == "Sobre"){
 			this.innerHTML = "";
-			this.classList.remove('glyphicon');
-			this.classList.remove('glyphicon-earphone');
-		} else if(texto == "Contatos"){
-			this.innerHTML = "";
 			this.classList.remove('fa');
 			this.classList.remove('fa-birthday-cake');
+		} else if(texto == "Contatos"){
+			this.innerHTML = "";
+			this.classList.remove('glyphicon');
+			this.classList.remove('glyphicon-earphone');
 		}
 
 		this.innerHTML = texto;
