@@ -72,6 +72,7 @@ body{
 	margin: 0;
 	padding-top: 5%;
 	width: 100%;
+	
 }
 
 .div_principais h2{
@@ -153,7 +154,17 @@ body{
 
 /*Sobre*/
 .sobre_class{
-	background:
+	height: 760px;
+	background-image: url("imagens/bolo-de-chocolate-sem-farinha-n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.sobre_class p{
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 20px;
 }
 
 /*Contatos*/
@@ -180,6 +191,7 @@ body{
 .contatos_class p{
 	font-size: 18px;
 	text-align: left;
+
 }
 
 .contatos_margin{
@@ -221,11 +233,11 @@ body{
 	text-align: center;
 }
 
-.home_titulo { 
+.home_titulo {
 	font-family: ‘Libre Baskerville’, serif;
 	position: absolute;
-	z-index: 1;	
-	font-weight:100; 
+	z-index: 1;
+	font-weight:100;
 	color: white;
 	padding: 2rem;
 	width: 100%;
