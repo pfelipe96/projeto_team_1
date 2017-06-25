@@ -1,10 +1,7 @@
 body{
 	width: 100%;
-	margin: 0;
-	font-family: 'Dosis', sans-serif;
-	display: block;
+	/*display: block;*/
 	font-family: 'Open Sans', sans-serif;
-	display: block;
 }
 
 /*Navegação*/
@@ -12,7 +9,7 @@ body{
 	width: 100%;
 	height: auto;
 	position: fixed;
-	padding: 8px;
+	padding: 1%;
 	background-color: #FFAB91;
 	text-align: center;
 	z-index: 2;
@@ -20,12 +17,11 @@ body{
 }
 
 .header nav{
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 4%;
 }
 
 .header nav a{
-	font-size: 150%;
+	font-size: 24px;
 	padding-left: 40px;
 	padding-right: 40px;
 	color: #fff;
@@ -41,10 +37,11 @@ body{
 
 
 .contato_header {
-	padding-top: 10px;
+	padding-top: 1.5%;
 }
 
 .header div p{
+	font-size: 18px;
  	color: #fff;
  	text-align: center;
  }
@@ -70,9 +67,7 @@ body{
 	font-family: 'Dosis', sans-serif;
 	padding: 0;
 	margin: 0;
-	padding-top: 5%;
 	width: 100%;
-	
 }
 
 .div_principais h2{
@@ -80,23 +75,26 @@ body{
 	text-align: center;
 	color: #fff;
 	padding-bottom: 10px;
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
-.screen_div{
+/*.screen_div{
 	height: 1024px;
 	width: auto;
-}
+}*/
 
 .screen_div{
 	margin: auto;
+	padding: auto;
 }
 
 
 /*Home*/
 
 .home_class{
-	height: 720px;
+	padding-top: 8%;
+	position: relative;
+	height: auto;
 }
 
 .home_class video{
@@ -113,30 +111,28 @@ body{
 	font-family: ‘Libre Baskerville’, serif;
 	position: absolute;
 	z-index: 1;
-	font-weight:100;
+
 	color: white;
-	padding: 2rem;
 	width: 100%;
 	height: auto;
-	font-size: 1.2rem;
 }
 
 .home_titulo h2{
-	font-family: ‘Libre Baskerville’, serif;
-	padding-top: 20px;
+	padding-top: 2%;
 }
 
 .home_titulo h1 {
 	text-align: center;
 	font-weight: bold;
- 	font-size: 700%;
-  	margin-top: 2.5em;
+ 	font-size: 100px;
+  	padding-top: 20%;
   	letter-spacing: 3rem;
 }
 
 
 /*Loja*/
 .loja_class{
+	height: auto;
 	background-color: #eee;
 }
 
@@ -170,9 +166,9 @@ body{
 
 /*Sobre*/
 .sobre_class{
-	height: 760px;
+	height: autoßßß;
 	background-image: url("imagens/bolo-de-chocolate-sem-farinha-n.jpg");
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 
 }
@@ -187,6 +183,10 @@ body{
 	text-align: justify;
 	padding-top: 25px;
 	/*text-shadow: 1px 1px 1px white;*/
+}
+
+.sobre_aLoja{
+	padding-bottom: 28%;
 }
 
 /*Contatos*/
@@ -278,19 +278,39 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: #45a049 ;
+    background-color: #FF6F00 ;
 }
 
 
 .container_contatos {
-    border-radius: 5px;
-    background-color: #f2f2f2 ;
-    padding: 20px;
+    padding-top: 4%;
+    /*padding: 20px;*/
+}
+
+.container_contatos form{
+	background-color: #fff;
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
+	
+	.home_titulo h1 {
+  	padding-top: 15%;
+
+	}
     .screen_div div {
         margin: auto;
     }
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.home_titulo h1 {
+  		padding-top: auto;
+
+	}
+
+	.header{
+  		padding-bottom: 15%;
+	}
 }
